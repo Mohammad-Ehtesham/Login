@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url(4k-bright-city-lights-a94oba3aund01051.jpg), linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.7))
+    no-repeat center fixed ;
+    background-size: cover;
+
+}
+
+.outPopUp {
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    z-index: 15;
+    top: 25%;
+    left: 35%;
+    margin: -100px 0 0 -150px;
+    backdrop-filter: blur(7px) saturate(122%);
+    -webkit-backdrop-filter: blur(7px) saturate(122%);
+    background-color: rgba(17, 25, 40, 0.51);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: white;
+}
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.outPopUp #form{
+    padding: 15px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width: 90%;
+}
+.outPopUp #form:active{
+    border: 2px solid rgb(99, 99, 228) 5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(133, 90, 90);
+}
+.Sign{
+    padding: 10px 15px ;
+    border-radius: 20px;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color:  rgba(155, 136, 136, 0.603);
+}
+.log{
+    padding: 10px 15px ;
+    margin-top: 8px;
+    border-radius: 20px;
+    width: 95%;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    transition: all ease .4s;
+}
+.log:hover{
+    background-color: rgba(155, 136, 136, 0.603);
+    color: white;
+}
+.outPopUp #name{
+    font-size: 3vb;
+}
+.contai {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+@media screen and (max-width:1023px) {
+    .outPopUp{
+        width: 100%;
+        height: 80%;
+        left: 25%;
+        margin-right: 50%;
+    }
+}
